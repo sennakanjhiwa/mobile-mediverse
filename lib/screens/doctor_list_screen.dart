@@ -103,7 +103,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                     .ellipsis, // Menghindari overflow
                               ),
                               Text(
-                                doctor['specialization'] ?? 'No specialization',
+                                doctor['specialization'] ?? 'No Specialization',
                                 style: const TextStyle(
                                   color: Color.fromARGB(255, 83, 122, 119),
                                   fontStyle: FontStyle.italic,
